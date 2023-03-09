@@ -4,9 +4,7 @@ public class Student {
 	private double gpa;
 	
 	public Student() {
-		this.name = null;
-		this.major = null;
-		this.gpa = 0.0;
+		
 	}
 	
 	public Student(String name, String major) {
