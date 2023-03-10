@@ -1,11 +1,9 @@
-
+import java.util.*;
 public class Book {
 	private String name, author;
-	private Course course;
+	private List<Course> listCourses;
 	
 	public Book() {
-		this.name = "";
-		this.author = "";
-		this.course = null;
+		
 	}
 }
