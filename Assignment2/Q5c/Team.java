@@ -1,7 +1,7 @@
-
+import java.util.*;
 public class Team {
 	private int code;
-	private Player player;
+	private List<Player> player;
 	
 	public Team() {
 		
